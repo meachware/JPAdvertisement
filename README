@@ -1,0 +1,1 @@
+JPAdvertisementBannerViewController is a near drop in replacement for ADBannerView. Ads are loaded from self made .plist files, an example ad for Grades 2 http://gradesapp.com is included and used in the demo project. To use JPAd copy the files in the JPAdvert folder.
