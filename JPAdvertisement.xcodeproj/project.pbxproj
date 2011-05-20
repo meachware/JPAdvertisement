@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068ECB6F1386D7750012C46C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068ECB6E1386D7750012C46C /* UIKit.framework */; };
+		068ECB711386D7750012C46C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068ECB701386D7750012C46C /* Foundation.framework */; };
+		068ECB731386D7750012C46C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068ECB721386D7750012C46C /* CoreGraphics.framework */; };
+		068ECB791386D7750012C46C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 068ECB771386D7750012C46C /* InfoPlist.strings */; };
+		068ECB7C1386D7750012C46C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB7B1386D7750012C46C /* main.m */; };
+		068ECB7F1386D7750012C46C /* JPAdvertisementAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB7E1386D7750012C46C /* JPAdvertisementAppDelegate.m */; };
+		068ECB821386D7750012C46C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068ECB801386D7750012C46C /* MainWindow.xib */; };
+		068ECB851386D7750012C46C /* JPAdvertisementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB841386D7750012C46C /* JPAdvertisementViewController.m */; };
+		068ECB881386D7750012C46C /* JPAdvertisementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068ECB861386D7750012C46C /* JPAdvertisementViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		068ECB6A1386D7750012C46C /* JPAdvertisement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPAdvertisement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		068ECB6E1386D7750012C46C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		068ECB701386D7750012C46C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		068ECB721386D7750012C46C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		068ECB761386D7750012C46C /* JPAdvertisement-Info.plist */ = {isa = PBXFileReference; path = "JPAdvertisement-Info.plist"; sourceTree = "<group>"; };
+		068ECB781386D7750012C46C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		068ECB7A1386D7750012C46C /* JPAdvertisement-Prefix.pch */ = {isa = PBXFileReference; path = "JPAdvertisement-Prefix.pch"; sourceTree = "<group>"; };
+		068ECB7B1386D7750012C46C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		068ECB7D1386D7750012C46C /* JPAdvertisementAppDelegate.h */ = {isa = PBXFileReference; path = JPAdvertisementAppDelegate.h; sourceTree = "<group>"; };
+		068ECB7E1386D7750012C46C /* JPAdvertisementAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAdvertisementAppDelegate.m; sourceTree = "<group>"; };
+		068ECB811386D7750012C46C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		068ECB831386D7750012C46C /* JPAdvertisementViewController.h */ = {isa = PBXFileReference; path = JPAdvertisementViewController.h; sourceTree = "<group>"; };
+		068ECB841386D7750012C46C /* JPAdvertisementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAdvertisementViewController.m; sourceTree = "<group>"; };
+		068ECB871386D7750012C46C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JPAdvertisementViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		068ECB671386D7750012C46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068ECB6F1386D7750012C46C /* UIKit.framework in Frameworks */,
+				068ECB711386D7750012C46C /* Foundation.framework in Frameworks */,
+				068ECB731386D7750012C46C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068ECB5F1386D7750012C46C = {
+			isa = PBXGroup;
+			children = (
+				068ECB741386D7750012C46C /* JPAdvertisement */,
+				068ECB6D1386D7750012C46C /* Frameworks */,
+				068ECB6B1386D7750012C46C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		068ECB6B1386D7750012C46C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				068ECB6A1386D7750012C46C /* JPAdvertisement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		068ECB6D1386D7750012C46C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				068ECB6E1386D7750012C46C /* UIKit.framework */,
+				068ECB701386D7750012C46C /* Foundation.framework */,
+				068ECB721386D7750012C46C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		068ECB741386D7750012C46C /* JPAdvertisement */ = {
+			isa = PBXGroup;
+			children = (
+				068ECB7D1386D7750012C46C /* JPAdvertisementAppDelegate.h */,
+				068ECB7E1386D7750012C46C /* JPAdvertisementAppDelegate.m */,
+				068ECB801386D7750012C46C /* MainWindow.xib */,
+				068ECB831386D7750012C46C /* JPAdvertisementViewController.h */,
+				068ECB841386D7750012C46C /* JPAdvertisementViewController.m */,
+				068ECB861386D7750012C46C /* JPAdvertisementViewController.xib */,
+				068ECB751386D7750012C46C /* Supporting Files */,
+			);
+			path = JPAdvertisement;
+			sourceTree = "<group>";
+		};
+		068ECB751386D7750012C46C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				068ECB761386D7750012C46C /* JPAdvertisement-Info.plist */,
+				068ECB771386D7750012C46C /* InfoPlist.strings */,
+				068ECB7A1386D7750012C46C /* JPAdvertisement-Prefix.pch */,
+				068ECB7B1386D7750012C46C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		068ECB691386D7750012C46C /* JPAdvertisement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068ECB8B1386D7750012C46C /* Build configuration list for PBXNativeTarget "JPAdvertisement" */;
+			buildPhases = (
+				068ECB661386D7750012C46C /* Sources */,
+				068ECB671386D7750012C46C /* Frameworks */,
+				068ECB681386D7750012C46C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPAdvertisement;
+			productName = JPAdvertisement;
+			productReference = 068ECB6A1386D7750012C46C /* JPAdvertisement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		068ECB611386D7750012C46C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "IdiogenicOsmoles & PasquaLabs";
+			};
+			buildConfigurationList = 068ECB641386D7750012C46C /* Build configuration list for PBXProject "JPAdvertisement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 068ECB5F1386D7750012C46C;
+			productRefGroup = 068ECB6B1386D7750012C46C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				068ECB691386D7750012C46C /* JPAdvertisement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		068ECB681386D7750012C46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068ECB791386D7750012C46C /* InfoPlist.strings in Resources */,
+				068ECB821386D7750012C46C /* MainWindow.xib in Resources */,
+				068ECB881386D7750012C46C /* JPAdvertisementViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		068ECB661386D7750012C46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068ECB7C1386D7750012C46C /* main.m in Sources */,
+				068ECB7F1386D7750012C46C /* JPAdvertisementAppDelegate.m in Sources */,
+				068ECB851386D7750012C46C /* JPAdvertisementViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		068ECB771386D7750012C46C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068ECB781386D7750012C46C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		068ECB801386D7750012C46C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068ECB811386D7750012C46C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		068ECB861386D7750012C46C /* JPAdvertisementViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068ECB871386D7750012C46C /* en */,
+			);
+			name = JPAdvertisementViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		068ECB891386D7750012C46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		068ECB8A1386D7750012C46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		068ECB8C1386D7750012C46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPAdvertisement/JPAdvertisement-Prefix.pch";
+				INFOPLIST_FILE = "JPAdvertisement/JPAdvertisement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		068ECB8D1386D7750012C46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPAdvertisement/JPAdvertisement-Prefix.pch";
+				INFOPLIST_FILE = "JPAdvertisement/JPAdvertisement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068ECB641386D7750012C46C /* Build configuration list for PBXProject "JPAdvertisement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068ECB891386D7750012C46C /* Debug */,
+				068ECB8A1386D7750012C46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068ECB8B1386D7750012C46C /* Build configuration list for PBXNativeTarget "JPAdvertisement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068ECB8C1386D7750012C46C /* Debug */,
+				068ECB8D1386D7750012C46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 068ECB611386D7750012C46C /* Project object */;
+}
