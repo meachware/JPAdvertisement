@@ -15,6 +15,9 @@
 		061174731386EB92008195C2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0611746B1386EB91008195C2 /* Icon.png */; };
 		061174741386EB92008195C2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0611746C1386EB91008195C2 /* Icon@2x.png */; };
 		061174751386EB92008195C2 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 0611746D1386EB91008195C2 /* iTunesArtwork */; };
+		0619F9031386ECDF00C27453 /* JPAdvertisementBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0619F8FF1386ECDF00C27453 /* JPAdvertisementBannerViewController.m */; };
+		0619F9041386ECDF00C27453 /* JPAdvertisementBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0619F9001386ECDF00C27453 /* JPAdvertisementBannerViewController.xib */; };
+		0619F9051386ECDF00C27453 /* JPAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0619F9021386ECDF00C27453 /* JPAdViewController.m */; };
 		068ECB6F1386D7750012C46C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068ECB6E1386D7750012C46C /* UIKit.framework */; };
 		068ECB711386D7750012C46C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068ECB701386D7750012C46C /* Foundation.framework */; };
 		068ECB731386D7750012C46C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068ECB721386D7750012C46C /* CoreGraphics.framework */; };
@@ -22,9 +25,6 @@
 		068ECB7C1386D7750012C46C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB7B1386D7750012C46C /* main.m */; };
 		068ECB7F1386D7750012C46C /* JPAdvertisementAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB7E1386D7750012C46C /* JPAdvertisementAppDelegate.m */; };
 		068ECB821386D7750012C46C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068ECB801386D7750012C46C /* MainWindow.xib */; };
-		068ECB971386D8320012C46C /* JPAdvertisementBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB931386D8320012C46C /* JPAdvertisementBannerViewController.m */; };
-		068ECB981386D8320012C46C /* JPAdvertisementBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068ECB941386D8320012C46C /* JPAdvertisementBannerViewController.xib */; };
-		068ECB991386D8320012C46C /* JPAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB961386D8320012C46C /* JPAdViewController.m */; };
 		068ECB9E1386DC5C0012C46C /* JPStandInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB9C1386DC5C0012C46C /* JPStandInViewController.m */; };
 		068ECB9F1386DC5C0012C46C /* JPAdvertisementPlaygroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068ECB9D1386DC5C0012C46C /* JPAdvertisementPlaygroundViewController.xib */; };
 		068ECBB31386DEE80012C46C /* Grades.plist in Resources */ = {isa = PBXBuildFile; fileRef = 068ECBAE1386DEE80012C46C /* Grades.plist */; };
@@ -47,6 +47,11 @@
 		0611746B1386EB91008195C2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
 		0611746C1386EB91008195C2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
 		0611746D1386EB91008195C2 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = SOURCE_ROOT; };
+		0619F8FE1386ECDF00C27453 /* JPAdvertisementBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAdvertisementBannerViewController.h; sourceTree = "<group>"; };
+		0619F8FF1386ECDF00C27453 /* JPAdvertisementBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAdvertisementBannerViewController.m; sourceTree = "<group>"; };
+		0619F9001386ECDF00C27453 /* JPAdvertisementBannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JPAdvertisementBannerViewController.xib; sourceTree = "<group>"; };
+		0619F9011386ECDF00C27453 /* JPAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAdViewController.h; sourceTree = "<group>"; };
+		0619F9021386ECDF00C27453 /* JPAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAdViewController.m; sourceTree = "<group>"; };
 		068ECB6A1386D7750012C46C /* JPAdvertisement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPAdvertisement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		068ECB6E1386D7750012C46C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		068ECB701386D7750012C46C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,11 +63,6 @@
 		068ECB7D1386D7750012C46C /* JPAdvertisementAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAdvertisementAppDelegate.h; sourceTree = "<group>"; };
 		068ECB7E1386D7750012C46C /* JPAdvertisementAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAdvertisementAppDelegate.m; sourceTree = "<group>"; };
 		068ECB811386D7750012C46C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		068ECB921386D8320012C46C /* JPAdvertisementBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAdvertisementBannerViewController.h; sourceTree = "<group>"; };
-		068ECB931386D8320012C46C /* JPAdvertisementBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAdvertisementBannerViewController.m; sourceTree = "<group>"; };
-		068ECB941386D8320012C46C /* JPAdvertisementBannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JPAdvertisementBannerViewController.xib; sourceTree = "<group>"; };
-		068ECB951386D8320012C46C /* JPAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAdViewController.h; sourceTree = "<group>"; };
-		068ECB961386D8320012C46C /* JPAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAdViewController.m; sourceTree = "<group>"; };
 		068ECB9B1386DC5C0012C46C /* JPStandInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPStandInViewController.h; sourceTree = "<group>"; };
 		068ECB9C1386DC5C0012C46C /* JPStandInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPStandInViewController.m; sourceTree = "<group>"; };
 		068ECB9D1386DC5C0012C46C /* JPAdvertisementPlaygroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JPAdvertisementPlaygroundViewController.xib; sourceTree = "<group>"; };
@@ -106,6 +106,18 @@
 			name = Icon;
 			sourceTree = "<group>";
 		};
+		0619F8FD1386ECDF00C27453 /* JPAdvert */ = {
+			isa = PBXGroup;
+			children = (
+				0619F8FE1386ECDF00C27453 /* JPAdvertisementBannerViewController.h */,
+				0619F8FF1386ECDF00C27453 /* JPAdvertisementBannerViewController.m */,
+				0619F9001386ECDF00C27453 /* JPAdvertisementBannerViewController.xib */,
+				0619F9011386ECDF00C27453 /* JPAdViewController.h */,
+				0619F9021386ECDF00C27453 /* JPAdViewController.m */,
+			);
+			path = JPAdvert;
+			sourceTree = "<group>";
+		};
 		068ECB5F1386D7750012C46C = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +151,7 @@
 				061174761386EB96008195C2 /* Icon */,
 				068ECBAD1386DEE80012C46C /* Grades */,
 				068ECBB81386DF480012C46C /* Shadow */,
-				068ECB9A1386D8370012C46C /* JPAdvertisement */,
+				0619F8FD1386ECDF00C27453 /* JPAdvert */,
 				068ECBA11386DE510012C46C /* Delegate */,
 				068ECBA01386DC610012C46C /* Holder view */,
 				068ECB751386D7750012C46C /* Supporting Files */,
@@ -156,18 +168,6 @@
 				068ECB7B1386D7750012C46C /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		068ECB9A1386D8370012C46C /* JPAdvertisement */ = {
-			isa = PBXGroup;
-			children = (
-				068ECB921386D8320012C46C /* JPAdvertisementBannerViewController.h */,
-				068ECB931386D8320012C46C /* JPAdvertisementBannerViewController.m */,
-				068ECB941386D8320012C46C /* JPAdvertisementBannerViewController.xib */,
-				068ECB951386D8320012C46C /* JPAdViewController.h */,
-				068ECB961386D8320012C46C /* JPAdViewController.m */,
-			);
-			name = JPAdvertisement;
 			sourceTree = "<group>";
 		};
 		068ECBA01386DC610012C46C /* Holder view */ = {
@@ -265,7 +265,6 @@
 			files = (
 				068ECB791386D7750012C46C /* InfoPlist.strings in Resources */,
 				068ECB821386D7750012C46C /* MainWindow.xib in Resources */,
-				068ECB981386D8320012C46C /* JPAdvertisementBannerViewController.xib in Resources */,
 				068ECB9F1386DC5C0012C46C /* JPAdvertisementPlaygroundViewController.xib in Resources */,
 				068ECBB31386DEE80012C46C /* Grades.plist in Resources */,
 				068ECBB41386DEE80012C46C /* GradesLandscape.png in Resources */,
@@ -284,6 +283,7 @@
 				061174731386EB92008195C2 /* Icon.png in Resources */,
 				061174741386EB92008195C2 /* Icon@2x.png in Resources */,
 				061174751386EB92008195C2 /* iTunesArtwork in Resources */,
+				0619F9041386ECDF00C27453 /* JPAdvertisementBannerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,9 +296,9 @@
 			files = (
 				068ECB7C1386D7750012C46C /* main.m in Sources */,
 				068ECB7F1386D7750012C46C /* JPAdvertisementAppDelegate.m in Sources */,
-				068ECB971386D8320012C46C /* JPAdvertisementBannerViewController.m in Sources */,
-				068ECB991386D8320012C46C /* JPAdViewController.m in Sources */,
 				068ECB9E1386DC5C0012C46C /* JPStandInViewController.m in Sources */,
+				0619F9031386ECDF00C27453 /* JPAdvertisementBannerViewController.m in Sources */,
+				0619F9051386ECDF00C27453 /* JPAdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
