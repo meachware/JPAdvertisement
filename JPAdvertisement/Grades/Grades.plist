@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adURL</key>
+	<string>http://u.joepasq.com/4</string>
+	<key>affiliatedLink</key>
+	<true/>
+	<key>handheldLandscapeImage</key>
+	<string>GradesLandscape.png</string>
+	<key>handheldPortraitImage</key>
+	<string>GradesPortrait.png</string>
+</dict>
+</plist>

@@ -14,8 +14,20 @@
 		068ECB7C1386D7750012C46C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB7B1386D7750012C46C /* main.m */; };
 		068ECB7F1386D7750012C46C /* JPAdvertisementAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB7E1386D7750012C46C /* JPAdvertisementAppDelegate.m */; };
 		068ECB821386D7750012C46C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068ECB801386D7750012C46C /* MainWindow.xib */; };
-		068ECB851386D7750012C46C /* JPAdvertisementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB841386D7750012C46C /* JPAdvertisementViewController.m */; };
-		068ECB881386D7750012C46C /* JPAdvertisementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068ECB861386D7750012C46C /* JPAdvertisementViewController.xib */; };
+		068ECB971386D8320012C46C /* JPAdvertisementBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB931386D8320012C46C /* JPAdvertisementBannerViewController.m */; };
+		068ECB981386D8320012C46C /* JPAdvertisementBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068ECB941386D8320012C46C /* JPAdvertisementBannerViewController.xib */; };
+		068ECB991386D8320012C46C /* JPAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB961386D8320012C46C /* JPAdViewController.m */; };
+		068ECB9E1386DC5C0012C46C /* JPStandInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068ECB9C1386DC5C0012C46C /* JPStandInViewController.m */; };
+		068ECB9F1386DC5C0012C46C /* JPAdvertisementPlaygroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068ECB9D1386DC5C0012C46C /* JPAdvertisementPlaygroundViewController.xib */; };
+		068ECBB31386DEE80012C46C /* Grades.plist in Resources */ = {isa = PBXBuildFile; fileRef = 068ECBAE1386DEE80012C46C /* Grades.plist */; };
+		068ECBB41386DEE80012C46C /* GradesLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 068ECBAF1386DEE80012C46C /* GradesLandscape.png */; };
+		068ECBB51386DEE80012C46C /* GradesLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 068ECBB01386DEE80012C46C /* GradesLandscape@2x.png */; };
+		068ECBB61386DEE80012C46C /* GradesPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 068ECBB11386DEE80012C46C /* GradesPortrait.png */; };
+		068ECBB71386DEE80012C46C /* GradesPortrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 068ECBB21386DEE80012C46C /* GradesPortrait@2x.png */; };
+		068ECBBD1386DF480012C46C /* Shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 068ECBB91386DF480012C46C /* Shadow.png */; };
+		068ECBBE1386DF480012C46C /* Shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 068ECBBA1386DF480012C46C /* Shadow@2x.png */; };
+		068ECBBF1386DF480012C46C /* ShadowLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 068ECBBB1386DF480012C46C /* ShadowLandscape.png */; };
+		068ECBC01386DF480012C46C /* ShadowLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 068ECBBC1386DF480012C46C /* ShadowLandscape@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +35,30 @@
 		068ECB6E1386D7750012C46C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		068ECB701386D7750012C46C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		068ECB721386D7750012C46C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		068ECB761386D7750012C46C /* JPAdvertisement-Info.plist */ = {isa = PBXFileReference; path = "JPAdvertisement-Info.plist"; sourceTree = "<group>"; };
+		068ECB761386D7750012C46C /* JPAdvertisement-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JPAdvertisement-Info.plist"; sourceTree = "<group>"; };
 		068ECB781386D7750012C46C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		068ECB7A1386D7750012C46C /* JPAdvertisement-Prefix.pch */ = {isa = PBXFileReference; path = "JPAdvertisement-Prefix.pch"; sourceTree = "<group>"; };
+		068ECB7A1386D7750012C46C /* JPAdvertisement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JPAdvertisement-Prefix.pch"; sourceTree = "<group>"; };
 		068ECB7B1386D7750012C46C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		068ECB7D1386D7750012C46C /* JPAdvertisementAppDelegate.h */ = {isa = PBXFileReference; path = JPAdvertisementAppDelegate.h; sourceTree = "<group>"; };
+		068ECB7D1386D7750012C46C /* JPAdvertisementAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAdvertisementAppDelegate.h; sourceTree = "<group>"; };
 		068ECB7E1386D7750012C46C /* JPAdvertisementAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAdvertisementAppDelegate.m; sourceTree = "<group>"; };
 		068ECB811386D7750012C46C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		068ECB831386D7750012C46C /* JPAdvertisementViewController.h */ = {isa = PBXFileReference; path = JPAdvertisementViewController.h; sourceTree = "<group>"; };
-		068ECB841386D7750012C46C /* JPAdvertisementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAdvertisementViewController.m; sourceTree = "<group>"; };
-		068ECB871386D7750012C46C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JPAdvertisementViewController.xib; sourceTree = "<group>"; };
+		068ECB921386D8320012C46C /* JPAdvertisementBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAdvertisementBannerViewController.h; sourceTree = "<group>"; };
+		068ECB931386D8320012C46C /* JPAdvertisementBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAdvertisementBannerViewController.m; sourceTree = "<group>"; };
+		068ECB941386D8320012C46C /* JPAdvertisementBannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JPAdvertisementBannerViewController.xib; sourceTree = "<group>"; };
+		068ECB951386D8320012C46C /* JPAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAdViewController.h; sourceTree = "<group>"; };
+		068ECB961386D8320012C46C /* JPAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAdViewController.m; sourceTree = "<group>"; };
+		068ECB9B1386DC5C0012C46C /* JPStandInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = JPStandInViewController.h; sourceTree = "<group>"; };
+		068ECB9C1386DC5C0012C46C /* JPStandInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPStandInViewController.m; sourceTree = "<group>"; };
+		068ECB9D1386DC5C0012C46C /* JPAdvertisementPlaygroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JPAdvertisementPlaygroundViewController.xib; sourceTree = "<group>"; };
+		068ECBAE1386DEE80012C46C /* Grades.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Grades.plist; sourceTree = "<group>"; };
+		068ECBAF1386DEE80012C46C /* GradesLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GradesLandscape.png; sourceTree = "<group>"; };
+		068ECBB01386DEE80012C46C /* GradesLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GradesLandscape@2x.png"; sourceTree = "<group>"; };
+		068ECBB11386DEE80012C46C /* GradesPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GradesPortrait.png; sourceTree = "<group>"; };
+		068ECBB21386DEE80012C46C /* GradesPortrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GradesPortrait@2x.png"; sourceTree = "<group>"; };
+		068ECBB91386DF480012C46C /* Shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shadow.png; sourceTree = "<group>"; };
+		068ECBBA1386DF480012C46C /* Shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shadow@2x.png"; sourceTree = "<group>"; };
+		068ECBBB1386DF480012C46C /* ShadowLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShadowLandscape.png; sourceTree = "<group>"; };
+		068ECBBC1386DF480012C46C /* ShadowLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ShadowLandscape@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +105,11 @@
 		068ECB741386D7750012C46C /* JPAdvertisement */ = {
 			isa = PBXGroup;
 			children = (
-				068ECB7D1386D7750012C46C /* JPAdvertisementAppDelegate.h */,
-				068ECB7E1386D7750012C46C /* JPAdvertisementAppDelegate.m */,
-				068ECB801386D7750012C46C /* MainWindow.xib */,
-				068ECB831386D7750012C46C /* JPAdvertisementViewController.h */,
-				068ECB841386D7750012C46C /* JPAdvertisementViewController.m */,
-				068ECB861386D7750012C46C /* JPAdvertisementViewController.xib */,
+				068ECBAD1386DEE80012C46C /* Grades */,
+				068ECBB81386DF480012C46C /* Shadow */,
+				068ECB9A1386D8370012C46C /* JPAdvertisement */,
+				068ECBA11386DE510012C46C /* Delegate */,
+				068ECBA01386DC610012C46C /* Holder view */,
 				068ECB751386D7750012C46C /* Supporting Files */,
 			);
 			path = JPAdvertisement;
@@ -99,6 +124,61 @@
 				068ECB7B1386D7750012C46C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		068ECB9A1386D8370012C46C /* JPAdvertisement */ = {
+			isa = PBXGroup;
+			children = (
+				068ECB921386D8320012C46C /* JPAdvertisementBannerViewController.h */,
+				068ECB931386D8320012C46C /* JPAdvertisementBannerViewController.m */,
+				068ECB941386D8320012C46C /* JPAdvertisementBannerViewController.xib */,
+				068ECB951386D8320012C46C /* JPAdViewController.h */,
+				068ECB961386D8320012C46C /* JPAdViewController.m */,
+			);
+			name = JPAdvertisement;
+			sourceTree = "<group>";
+		};
+		068ECBA01386DC610012C46C /* Holder view */ = {
+			isa = PBXGroup;
+			children = (
+				068ECB9B1386DC5C0012C46C /* JPStandInViewController.h */,
+				068ECB9C1386DC5C0012C46C /* JPStandInViewController.m */,
+				068ECB9D1386DC5C0012C46C /* JPAdvertisementPlaygroundViewController.xib */,
+			);
+			name = "Holder view";
+			sourceTree = "<group>";
+		};
+		068ECBA11386DE510012C46C /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				068ECB7D1386D7750012C46C /* JPAdvertisementAppDelegate.h */,
+				068ECB7E1386D7750012C46C /* JPAdvertisementAppDelegate.m */,
+				068ECB801386D7750012C46C /* MainWindow.xib */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		068ECBAD1386DEE80012C46C /* Grades */ = {
+			isa = PBXGroup;
+			children = (
+				068ECBAE1386DEE80012C46C /* Grades.plist */,
+				068ECBAF1386DEE80012C46C /* GradesLandscape.png */,
+				068ECBB01386DEE80012C46C /* GradesLandscape@2x.png */,
+				068ECBB11386DEE80012C46C /* GradesPortrait.png */,
+				068ECBB21386DEE80012C46C /* GradesPortrait@2x.png */,
+			);
+			path = Grades;
+			sourceTree = "<group>";
+		};
+		068ECBB81386DF480012C46C /* Shadow */ = {
+			isa = PBXGroup;
+			children = (
+				068ECBB91386DF480012C46C /* Shadow.png */,
+				068ECBBA1386DF480012C46C /* Shadow@2x.png */,
+				068ECBBB1386DF480012C46C /* ShadowLandscape.png */,
+				068ECBBC1386DF480012C46C /* ShadowLandscape@2x.png */,
+			);
+			path = Shadow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +233,17 @@
 			files = (
 				068ECB791386D7750012C46C /* InfoPlist.strings in Resources */,
 				068ECB821386D7750012C46C /* MainWindow.xib in Resources */,
-				068ECB881386D7750012C46C /* JPAdvertisementViewController.xib in Resources */,
+				068ECB981386D8320012C46C /* JPAdvertisementBannerViewController.xib in Resources */,
+				068ECB9F1386DC5C0012C46C /* JPAdvertisementPlaygroundViewController.xib in Resources */,
+				068ECBB31386DEE80012C46C /* Grades.plist in Resources */,
+				068ECBB41386DEE80012C46C /* GradesLandscape.png in Resources */,
+				068ECBB51386DEE80012C46C /* GradesLandscape@2x.png in Resources */,
+				068ECBB61386DEE80012C46C /* GradesPortrait.png in Resources */,
+				068ECBB71386DEE80012C46C /* GradesPortrait@2x.png in Resources */,
+				068ECBBD1386DF480012C46C /* Shadow.png in Resources */,
+				068ECBBE1386DF480012C46C /* Shadow@2x.png in Resources */,
+				068ECBBF1386DF480012C46C /* ShadowLandscape.png in Resources */,
+				068ECBC01386DF480012C46C /* ShadowLandscape@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +256,9 @@
 			files = (
 				068ECB7C1386D7750012C46C /* main.m in Sources */,
 				068ECB7F1386D7750012C46C /* JPAdvertisementAppDelegate.m in Sources */,
-				068ECB851386D7750012C46C /* JPAdvertisementViewController.m in Sources */,
+				068ECB971386D8320012C46C /* JPAdvertisementBannerViewController.m in Sources */,
+				068ECB991386D8320012C46C /* JPAdViewController.m in Sources */,
+				068ECB9E1386DC5C0012C46C /* JPStandInViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,14 +279,6 @@
 				068ECB811386D7750012C46C /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		068ECB861386D7750012C46C /* JPAdvertisementViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				068ECB871386D7750012C46C /* en */,
-			);
-			name = JPAdvertisementViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -279,6 +363,7 @@
 				068ECB8D1386D7750012C46C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

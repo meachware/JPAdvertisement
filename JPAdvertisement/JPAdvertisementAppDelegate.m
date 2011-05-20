@@ -8,7 +8,7 @@
 
 #import "JPAdvertisementAppDelegate.h"
 
-#import "JPAdvertisementViewController.h"
+#import "JPStandInViewController.h"
 
 @implementation JPAdvertisementAppDelegate
 
@@ -21,7 +21,7 @@
 {
 	// Override point for customization after application launch.
 	 
-	self.window.rootViewController = self.viewController;
+	self.window.rootViewController = (UIViewController *)self.viewController;
 	[self.window makeKeyAndVisible];
     return YES;
 }
