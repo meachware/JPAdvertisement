@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	068ECB611386D7750012C46C /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 06E80C0D1386EC0E00276A86 /* JPAdvertisement */;
+		activeTarget = 068ECB691386D7750012C46C /* JPAdvertisement */;
+		codeSenseManager = 06E80C181386EC1000276A86 /* Code sense */;
+		executables = (
+			06E80C0D1386EC0E00276A86 /* JPAdvertisement */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					57.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 327609358;
+			PBXWorkspaceStateSaveDate = 327609358;
+		};
+		sourceControlManager = 06E80C171386EC1000276A86 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	068ECB691386D7750012C46C /* JPAdvertisement */ = {
+		activeExec = 0;
+		executables = (
+			06E80C0D1386EC0E00276A86 /* JPAdvertisement */,
+		);
+	};
+	06E80C0D1386EC0E00276A86 /* JPAdvertisement */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = JPAdvertisement;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	06E80C171386EC1000276A86 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	06E80C181386EC1000276A86 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
